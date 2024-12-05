@@ -35,4 +35,4 @@ jobs:
           git config --global user.email "virnahar@gmail.com"
           git config --global user.name "Virendra Kumar"
           git commit --allow-empty -m 'test'
-          git push origin main
+          git push origin master
