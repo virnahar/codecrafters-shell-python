@@ -32,5 +32,7 @@ jobs:
         run: |
           git clone https://git.codecrafters.io/4cb9d96a27ea6c6c codecrafters-shell-python
           cd codecrafters-shell-python
+          git config --global user.email "virnahar@gmail.com"
+          git config --global user.name "Virendra Kumar"
           git commit --allow-empty -m 'test'
           git push origin main
